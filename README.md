@@ -6,12 +6,51 @@ Originally found this library on github, it appeared to now longer work due to b
 
 Feel free to contribute and suggest updates.
 
-<img src="https://d13yacurqjgara.cloudfront.net/users/495792/screenshots/2113314/draft-03.gif" alt="Guillotine animation gif" style="width:800;height:600">
+<img src="https://d13yacurqjgara.cloudfront.net/users/495792/screenshots/2113314/draft-03.gif" alt="Slicer animation gif" style="width:800;height:600">
 
 
 # Usage
 
 *For a working implementation, have a look at the app module*
+1. Add JitPack repository in your root build.gradle at the end of repositories:
+
+    ~~~
+    allprojects {
+        repositories {
+            ...
+            maven { url "https://jitpack.io" }
+        }
+    }
+
+    ~~~
+
+2. Add the dependency to your app build.gradle
+
+~~~
+   	dependencies {
+	        compile 'com.github.towcar:SlicerMenuLibrary:acb8bd8217'
+	}
+
+~~~
+
+3. I found adding this to your app build.gradle also fixed a common bug for users
+~~~
+android {
+  buildTypes {
+      release {
+          ...
+      }
+      dexOptions {
+          ...
+        // release & debug is in project animators
+        matchingFallbacks = ['release', 'debug']
+      }
+      debug {
+          ...
+      }
+    }
+}
+~~~
 
 # Compatibility
   
