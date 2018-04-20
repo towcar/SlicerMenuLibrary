@@ -2,7 +2,7 @@
 
 Originally found this library on github, it appeared to now longer work due to being outdated. I decided to revive it for library building experience and because I love menu animation.
 
-{Original Library by Yalantis](https://github.com/Yalantis/GuillotineMenu-Android)
+[Original Library by Yalantis](https://github.com/Yalantis/GuillotineMenu-Android)
 
 Feel free to contribute and suggest updates.
 
