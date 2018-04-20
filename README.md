@@ -5,6 +5,7 @@ Originally found this library on github, it appeared to now longer work due to b
 {Original Library by Yalantis](https://github.com/Yalantis/GuillotineMenu-Android)
 
 Feel free to contribute and suggest updates.
+
 <img src="https://d13yacurqjgara.cloudfront.net/users/495792/screenshots/2113314/draft-03.gif" alt="Guillotine animation gif" style="width:800;height:600">
 
 
