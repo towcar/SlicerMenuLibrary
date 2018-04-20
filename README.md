@@ -1,5 +1,9 @@
 # Slicer Menu Library
 
+[![](https://jitpack.io/v/towcar/SlicerMenuLibrary.svg)](https://jitpack.io/#towcar/SlicerMenuLibrary)
+[![Build Status](https://travis-ci.org/alipay/sofa-rpc.svg?branch=master)](https://www.carsonskjerdal.com)
+
+
 Originally found this library on github, it seemed to me to no longer work due to being outdated. Perhaps I missed something during implementatio but anyway I decided to revive it for personal library building experience and because I love menu animation.
 
 [Original Library by Yalantis](https://github.com/Yalantis/GuillotineMenu-Android)
