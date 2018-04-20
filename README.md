@@ -33,7 +33,7 @@ Feel free to contribute and suggest updates.
 
 ~~~
 
-3. I found adding this to your app build.gradle also fixed a common bug for users
+3. I found setting matching configuration fallbacks to your app build.gradle also fixed a common issue for users
 ~~~
 android {
   buildTypes {
