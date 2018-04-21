@@ -56,6 +56,12 @@ android {
 }
 ~~~
 
+4. Next include butterknife in your app build.gradle
+~~~
+implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+~~~
+
 # Compatibility
   
   * Android 6.0 Marshmallow (API level 23)
