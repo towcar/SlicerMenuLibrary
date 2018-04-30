@@ -10,7 +10,7 @@ Originally found this library on github, it seemed to me to no longer work due t
 
 Feel free to contribute and suggest updates.
 
-<img src="https://d13yacurqjgara.cloudfront.net/users/495792/screenshots/2113314/draft-03.gif" alt="Slicer animation gif" style="width:800;height:600">
+<img src="https://media.giphy.com/media/eunvrQOhmV3pkrEchv/giphy.gif" alt="Slicer animation gif" style="width:800;height:600">
 
 
 # Usage
