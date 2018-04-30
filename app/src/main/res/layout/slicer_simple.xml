@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guillotine_background"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentInsetStart="0dp">
+
+        <ImageView
+            android:id="@+id/slicer_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="TODO"
+            android:src="@mipmap/ic_menu_white__90_24dp" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/profile_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="96dp"
+        android:paddingBottom="48dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:text="@string/home" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/feed_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:text="@string/around_me" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/activity_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:text="@string/settings" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/settings_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:text="@string/about" />
+    </LinearLayout>
+</LinearLayout>

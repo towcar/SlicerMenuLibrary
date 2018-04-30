@@ -12,7 +12,9 @@ import com.carsonskjerdal.slicermenu.animation.SlicerAnimation;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+//Activity for basic set up of the menu
+
+public class SimpleActivity extends AppCompatActivity {
 
     private static final long RIPPLE_DURATION = 250;
 
@@ -20,13 +22,13 @@ public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
     @BindView(R.id.root)
     FrameLayout root;
-    @BindView(R.id.content_hamburger)
-    View contentHamburger;
+    @BindView(R.id.menu_button)
+    View menuButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity);
 
         ButterKnife.bind(this);
 
@@ -35,14 +37,15 @@ public class MainActivity extends AppCompatActivity {
             getSupportActionBar().setTitle(null);
         }
 
-        View slicerMenu = LayoutInflater.from(this).inflate(R.layout.slicer, null);
+        View slicerMenu = LayoutInflater.from(this).inflate(R.layout.slicer_simple, null);
         root.addView(slicerMenu);
 
-        new SlicerAnimation.GuillotineBuilder(slicerMenu, slicerMenu.findViewById(R.id.guillotine_hamburger), contentHamburger)
+        new SlicerAnimation.GuillotineBuilder(slicerMenu, slicerMenu.findViewById(R.id.slicer_button), menuButton)
                 .setStartDelay(RIPPLE_DURATION)
                 .setActionBarViewForAnimation(toolbar)
                 .setClosedOnStart(true)
                 .build();
+
     }
 
     }

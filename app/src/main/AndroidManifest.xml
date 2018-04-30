@@ -11,7 +11,11 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="com.carsonskjerdal.slicermenusample.MainActivity"
+            android:name="com.carsonskjerdal.slicermenusample.SimpleActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.carsonskjerdal.slicermenusample.ButtonClickActivity"
             android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

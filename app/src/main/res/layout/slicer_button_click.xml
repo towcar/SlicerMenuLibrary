@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@color/guillotine_background"
     android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
@@ -24,14 +24,16 @@
         android:id="@+id/profile_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="96dp"
-        android:paddingBottom="36dp">
+        android:paddingTop="48dp"
+        android:paddingBottom="48dp">
 
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:id="@+id/button1"
             android:textAlignment="center"
+            android:background="?android:attr/selectableItemBackground"
             android:textSize="24sp"
             android:text="@string/home" />
     </LinearLayout>
@@ -43,10 +45,12 @@
         android:paddingBottom="24dp">
 
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:id="@+id/button2"
             android:textAlignment="center"
+            android:background="?android:attr/selectableItemBackground"
             android:textSize="24sp"
             android:text="@string/around_me" />
     </LinearLayout>
@@ -59,10 +63,12 @@
         android:paddingBottom="24dp">
 
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:id="@+id/button3"
             android:textAlignment="center"
+            android:background="?android:attr/selectableItemBackground"
             android:textSize="24sp"
             android:text="@string/settings" />
     </LinearLayout>
@@ -71,14 +77,15 @@
     <LinearLayout
         android:id="@+id/settings_group"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1">
+        android:layout_height="wrap_content">
 
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:id="@+id/button4"
             android:textAlignment="center"
+            android:background="?android:attr/selectableItemBackground"
             android:textSize="24sp"
             android:text="@string/about" />
     </LinearLayout>
