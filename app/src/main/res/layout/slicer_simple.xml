@@ -6,7 +6,7 @@
     android:background="@color/guillotine_background"
     android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:contentInsetStart="0dp">
@@ -18,7 +18,7 @@
             android:layout_marginStart="8dp"
             android:contentDescription="TODO"
             android:src="@mipmap/ic_menu_white__90_24dp" />
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
         android:id="@+id/profile_group"

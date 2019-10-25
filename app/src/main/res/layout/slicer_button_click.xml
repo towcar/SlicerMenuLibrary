@@ -6,7 +6,7 @@
     android:background="@color/guillotine_background"
     android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:contentInsetStart="0dp">
@@ -18,14 +18,14 @@
             android:layout_marginStart="8dp"
             android:contentDescription="TODO"
             android:src="@mipmap/ic_menu_white__90_24dp" />
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
         android:id="@+id/profile_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="48dp"
-        android:paddingBottom="48dp">
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp">
 
 
         <Button
@@ -42,7 +42,7 @@
         android:id="@+id/feed_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="24dp">
+        android:paddingBottom="12dp">
 
 
         <Button
@@ -60,7 +60,7 @@
         android:id="@+id/activity_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="24dp">
+        android:paddingBottom="12dp">
 
 
         <Button
