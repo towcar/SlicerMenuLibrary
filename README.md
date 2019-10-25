@@ -1,8 +1,6 @@
 # Slicer Menu Library
 
 [![](https://jitpack.io/v/towcar/SlicerMenuLibrary.svg)](https://jitpack.io/#towcar/SlicerMenuLibrary)
-[![Build Status](https://travis-ci.org/alipay/sofa-rpc.svg?branch=master)](https://www.carsonskjerdal.com)
-[![Build Status](https://travis-ci.org/towcar/SlicerMenuLibrary.png?branch=master)](https://www.carsonskjerdal.com)
 
 
 
@@ -73,5 +71,6 @@ implementation 'com.jakewharton:butterknife:8.8.1'
 ### Version: 1.0
 
   * Initial Build
+  * 10/25/2019 - Compatability Update
  
 
