@@ -2,6 +2,8 @@
 
 [![](https://jitpack.io/v/towcar/SlicerMenuLibrary.svg)](https://jitpack.io/#towcar/SlicerMenuLibrary)
 [![Build Status](https://travis-ci.org/alipay/sofa-rpc.svg?branch=master)](https://www.carsonskjerdal.com)
+[![Build Status](https://travis-ci.org/towcar/SlicerMenuLibrary.png?branch=master)](https://www.carsonskjerdal.com)
+
 
 
 Originally found this library on github, it seemed to me to no longer work due to being outdated and/or lacking ease of use. Anyway I decided to revive it for personal library building experience and because I love this menu animation.
@@ -10,7 +12,7 @@ Originally found this library on github, it seemed to me to no longer work due t
 
 Feel free to contribute and suggest updates.
 
-<img src="https://media.giphy.com/media/eunvrQOhmV3pkrEchv/giphy.gif" alt="Slicer animation gif" style="width:800;height:600">
+<img src="https://media.giphy.com/media/1oFpGN2Ycwh1g4DWej/giphy.gif" alt="Slicer animation gif" style="width:800;height:600">
 
 
 # Usage
